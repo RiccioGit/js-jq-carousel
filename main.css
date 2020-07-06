@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.slider-wrapper .images {
+    height: 100%;
+    text-align: center;
+}
+.slider-wrapper .images img {
+    display: none;
+    height: 100%;
+}
+.slider-wrapper .images img.active {
+    display: inline-block;
+}
